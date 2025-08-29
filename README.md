@@ -7,17 +7,17 @@ Type: All features are categorical
 
 The project includes bar charts for categorical attributes in the dataset:
 
-1. # Bar Charts
+# 1. Bar Charts
 
 Displays the frequency distribution of each feature (e.g., cap-shape, cap-color, odor, gill-size, stalk-shape, etc.).
 
 Helpful for spotting which categories dominate and how balanced each feature is.
 
-2. # Grid Layout
+# 2. Grid Layout
 
 All features are arranged in a subplot grid for side-by-side comparison.
 
-3. # (Optional Extension)
+# 3. (Optional Extension)
 
 Add comparative plots between features and the target (edible vs. poisonous).
 
