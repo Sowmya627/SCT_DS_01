@@ -1,8 +1,11 @@
 # SCT_DS_01
+📊 Data Visualization Project - Task 01
 
 📌 Project Overview
 
-This project demonstrates how to visualize the distribution of a categorical or continuous variable using bar charts and histograms. The visualization helps in understanding the spread and frequency of values such as ages, genders, or any other population statistics.
+This project demonstrates how to visualize the distribution of a categorical or continuous variable using bar charts and histograms.
+
+The visualization helps in understanding the spread and frequency of values such as ages, genders, or other population statistics.
 
 For example, in this task, we use India’s population distribution by age (2022) to showcase how different charts can reveal insights about demographics.
 
@@ -14,7 +17,6 @@ For example, in this task, we use India’s population distribution by age (2022
 Create a Bar Chart or Histogram to visualize the distribution of a given dataset.
 
 Use the sample dataset provided to represent values like age groups or gender distribution.
-
 
 
 ---
@@ -30,7 +32,6 @@ Age Group
 Population Count
 
 Gender (Optional)
-
 
 
 
@@ -57,8 +58,7 @@ seaborn (optional) → For enhanced visualizations
 import pandas as pd
 df = pd.read_csv("sample_dataset.csv")
 
-
-2. Bar Chart – For categorical data (e.g., Gender, Age Groups).
+2. Bar Chart – For categorical data (e.g., Gender, Age Groups)
 
 import matplotlib.pyplot as plt
 df['Age Group'].value_counts().plot(kind='bar')
@@ -67,8 +67,7 @@ plt.ylabel("Population")
 plt.title("Population Distribution by Age Groups")
 plt.show()
 
-
-3. Histogram – For continuous data (e.g., Ages).
+3. Histogram – For continuous data (e.g., Ages)
 
 df['Age'].plot(kind='hist', bins=10, edgecolor='black')
 plt.xlabel("Age")
@@ -76,15 +75,13 @@ plt.title("Age Distribution")
 plt.show()
 
 
-
-
 ---
 
 📊 Expected Output
 
-Bar Chart → Distribution of categorical variables (e.g., population per age group).
+Bar Chart → Distribution of categorical variables (e.g., population per age group)
 
-Histogram → Frequency distribution of continuous variables (e.g., population ages).
+Histogram → Frequency distribution of continuous variables (e.g., population ages)
 
 
 
@@ -120,3 +117,11 @@ pip install pandas matplotlib seaborn
 4. Run the Python script:
 
 python visualization.py
+
+
+
+
+
+---
+
+Would you like me to also add a preview section with i
